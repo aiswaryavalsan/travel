@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { MenuItems } from './MenuItems'
 import "./NavBarStyle.css"
+import { Link } from 'react-router-dom';
 const NavBar = () => {
   const[icon,setIcon]=useState(true);
   const handleMenuIcon=()=>{
@@ -17,7 +18,7 @@ const NavBar = () => {
    { MenuItems.map((item,index)=>{
     return(
       <li key={index}  >
-      <a className={item.cName} href={item.url}><i className={item.icon}></i>{item.title}</a>
+      <Link className={item.cName} to={item.url}><i className={item.icon}></i>{item.title}</Link>
       </li>
     )
    })}

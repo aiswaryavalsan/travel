@@ -8,7 +8,7 @@ const MainPage = (props) => {
     <div className='mainText'>
     <h1>{props.title}</h1>
     <p>{props.text}</p>
-    <a  href="#" className={props.btncName}>plan your travel</a>
+    <a  href="/" className={props.btncName}>plan your travel</a>
     </div>
     </div>
     </>
