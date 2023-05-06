@@ -1,8 +1,13 @@
 .destination{
     margin:1.2rem 6rem;
 }
+.heading{
+    align-items: center;
+    text-align: center;
+}
 .destination h1{
     font-size: 3rem;
+    padding-bottom: 0.2rem;
 }
 .firstDes{
     display:flex;
@@ -10,6 +15,9 @@
     justify-content: space-between;
     margin-top: 4.6rem;
 
+}
+.firstDes.odd{
+    flex-direction: row-reverse;
 }
 .desText{
     width:45%;
@@ -25,7 +33,9 @@
     display:flex;
     justify-content: space-between;
     z-index: -99;
+    
 }
+
 .images img{
     width:49%;
     height:350px;
@@ -53,6 +63,9 @@
     .images{
         width:100%;
         margin:1.8rem 0;
+    }
+    .firstDes.odd{
+        flex-direction: column-reverse;
     }
     .images img{
         height: 250px;

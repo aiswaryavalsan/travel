@@ -4,8 +4,10 @@ import './Trip.css'
 const Trip = () => {
   return (
     <div className='trip'>
+    <div className='heading'>
     <h1>Recent Trips</h1>
     <p>You can discover unique destinations using google map</p>
+    </div>
     <div className='tripcard'>
       {TripData.map((item)=>{
         return(

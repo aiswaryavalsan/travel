@@ -3,6 +3,7 @@ import MainPage from '../MainPage'
 import NavBar from '../NavBar'
 import Destination from '../Destination'
 import Trip from '../Trip'
+import Footer from '../Footer'
 const Home = () => {
   return (
 <>
@@ -14,7 +15,7 @@ const Home = () => {
    </MainPage>
    <Destination></Destination>
    <Trip></Trip>
- 
+ <Footer></Footer>
  </>
   )
 }
