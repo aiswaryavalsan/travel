@@ -2,8 +2,7 @@
     margin:0;
     background: black;
     color:#fff;
-    padding-top: 2rem;
-    padding-bottom: 4rem;
+    
     
 }
 .top{
@@ -12,7 +11,7 @@
     align-items: center;
     text-align: start;
     flex-wrap:wrap;
-    padding: 2rem;
+    padding: .5rem;
   
 }
 .top i{
